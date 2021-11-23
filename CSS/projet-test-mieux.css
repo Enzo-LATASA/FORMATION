@@ -1,0 +1,72 @@
+#grille1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, auto);
+    background-color: white;
+}
+#entete{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    border: 2px solid blue;
+    background-color: rgb(161, 161, 218);
+    color: white;
+}
+#liengauche{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: turquoise;
+    height: 550px;
+    width: 150px;
+}
+#contenu{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-end: 6;
+    grid-row-start: 2;
+}
+ul{
+    background-color: yellow;
+    margin-top: 0;
+}
+h2{
+    margin-left: 5%;
+    border-bottom: 4px solid rgb(128, 128, 216);
+}
+#cadre1{
+    border: 2px solid rgb(68, 179, 216);
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+}
+h3{
+    margin-left: 5%;
+    color: rgb(68, 179, 216);
+}
+#texte{
+    margin-left: 2%;
+    font-size: smaller;
+}
+body{
+    background-color: black;
+}
+#titre{
+    margin-left: 5%;
+    margin-top: 0;
+}
+h1{
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+#span1{
+    color: rgb(216, 68, 52);
+    font-weight: bold;
+}
+#span2{
+    color: blue;
+    font-weight: bold;
+}
+#span3{
+    color: turquoise;
+    font-weight: bold;
+}

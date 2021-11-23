@@ -1,0 +1,25 @@
+.champ{
+    margin-bottom: 10px;
+  }
+.blackscreen{
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+}
+div{
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    background-color:rgb(43, 234, 248);
+    color: black; 
+    margin-bottom: 0 auto;
+}
+.lien{
+    color: turquoise;
+}
+#tableau{
+    border: 1px solid;
+}
+#bouton{
+    background-color: black;
+    color: white;
+}

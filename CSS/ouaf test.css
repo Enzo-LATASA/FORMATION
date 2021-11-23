@@ -1,0 +1,14 @@
+#tr1{
+    background-image: url("../Medias/mozilla.png");
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+div{
+    transition-property: all;
+    border: 2px solid black;
+    width: 250px;
+    height: 276px;
+}
+#tr1:hover{
+    background-image: url("../Medias/mozilla\ firedoggo.PNG");
+}

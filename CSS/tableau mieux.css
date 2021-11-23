@@ -1,0 +1,50 @@
+.blackscreen{
+    background: linear-gradient(black,purple);
+}
+body{
+    font-family: Century;
+    margin: 0;
+}
+table{
+    margin: 20% auto;
+    border-collapse: collapse;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px;
+}
+thead{
+    background-color: purple;
+    color: white;
+}
+th,td{
+    border: 1px solid purple;
+    padding: 10px;
+}
+/*transition de couleur sur les lignes*/
+.transi:hover{
+    background-color: rgb(70, 7, 70);
+    color: white;
+}
+tbody{
+    background-color: white;
+}
+.transi{
+    transition: background-color, color;
+    transition-duration: 500ms;
+}
+.arrondi1{
+    border-top-left-radius: 20px;
+    border: none;
+}
+.arrondi2{
+    border-top-right-radius: 20px;
+    border: none;
+}
+.arrondi3{
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+.arrondi4{
+    border-bottom-right-radius: 20px;
+    border: none;
+}

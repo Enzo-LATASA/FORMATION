@@ -1,0 +1,38 @@
+body{
+    font-family: 'source code pro' Verdana, sans serif;
+    font-size: 18px;
+}
+#p1{
+    font-size: small;
+}
+#p2{
+    font-size: larger;
+}
+#p3{
+    font-size: 0.5em;
+}
+#p4{
+    font-size: 80%;
+}
+span{
+    font-size: 0.5rem;
+}
+#p5{
+    font-style: unset;
+}
+.conteneur{
+    text-align: center;
+    background-color: turquoise;
+    color: black;
+}
+h2{
+    text-transform: uppercase;
+    text-decoration: underline wavy black;
+}
+.blackscreen{
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+}
+#indent{
+    text-indent: 10%;
+}

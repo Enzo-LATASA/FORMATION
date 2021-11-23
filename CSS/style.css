@@ -1,0 +1,41 @@
+/*pour les liens*/
+.lien{
+    color: skyblue;
+}
+.blackscreen{
+	background-color: rgba(0, 0, 0, 0.865);
+	color: white;
+}
+#bodyId1{
+	background-color: rgba(22, 205, 211, 0.865);
+}
+#marge2{
+	margin-left: 50px;
+}
+#marge3{
+	margin-left: 25px;
+}
+h3{
+	color: turquoise;
+}
+div{
+	color: white;
+	margin: 0 auto;
+	width: 25%;
+	text-align: center;
+}
+div p{
+	margin: 0 auto;
+}
+div li{
+	text-align: center;
+}
+table,
+div{
+	border: 1px solid;
+	border-color: rgb(245, 41, 194);
+}
+span{
+	color: turquoise;
+	font-weight: bold;
+}

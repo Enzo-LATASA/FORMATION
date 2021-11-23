@@ -1,0 +1,12 @@
+p{
+    display: list-item;
+    list-style-type: circle;/*Les points seront des cercles*/
+    list-style-position: inside;/*Les points sont dans l'élément*/
+    background-color: #0cc;
+}
+ul{
+    display: list-item;
+    list-style-type: kannada;
+    list-style-position: inside;
+    background-color: aqua;
+}

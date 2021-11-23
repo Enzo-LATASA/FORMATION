@@ -1,0 +1,31 @@
+.blackscreen{
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+}
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+table{
+    /*centrage du tableau*/
+    margin: 20% auto;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+thead{
+    background-color: grey;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+/*.prenom{
+    background-color: #D7D9F2;
+}
+.adresse{
+    background-color: #FFE8D4;
+}*/
+tr:nth-child(even){
+    background-color: lightgrey;
+}

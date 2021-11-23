@@ -1,0 +1,49 @@
+.grille{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header {
+    background: url(https://live.staticflickr.com/1656/26031883676_182191d803_b.jpg);
+    background-size: cover;
+    background-color: #58AFF6;
+    top: 0;
+    height: 10vw;
+    width: 100vw;
+    text-align: center;
+}
+.location{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    width: 150px;
+    flex-wrap: wrap;
+}
+#adresse2{
+    align-items: flex-end;
+}
+main{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+.tel{
+    align-items: center;
+    background-color: grey;
+    width: 150px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+#titre{
+    margin-left: 5%;
+}
+@media print{
+    header{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+}

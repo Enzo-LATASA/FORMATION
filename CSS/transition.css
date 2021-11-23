@@ -1,0 +1,96 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+p{
+    font-size: 30px;
+}
+div{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#tr1{
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 0s;
+}
+#tr1:active{
+    background-color: blue;
+}
+#tr2{
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+#tr3{
+    background-color: orange;
+    transition-property: background-color, border;
+    transition-duration: 5s;
+}
+#tr4{
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#tr2:hover, #tr3:hover,#tr4:hover{
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+}
+#tr5{
+    transition-timing-function: ease;
+}
+#tr6{
+    transition-timing-function: ease-in;
+}
+#tr7{
+    transition-timing-function: ease-out;
+}
+#tr8{
+    transition-timing-function: ease-in-out;
+}
+#tr9{
+    transition-timing-function: linear;
+}
+#tr10{
+    transition-timing-function: cubic-bezier(0.6, 0, 1, 1);
+}
+#tr5:hover, #tr6:hover, #tr7:hover, #tr8:hover, #tr9:hover, #tr10:hover{
+    height: 1px;
+    width: 1px;
+    background-color: grey;
+}
+.affichageBoite{
+    width: 50%;
+    height: 60px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+#tr11{
+    background-image: url("../Medias/mozilla.png");
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+#tr11:hover{
+    background-image: url("../Medias/mozilla\ firedoggo.PNG");
+}
+.image{
+    width: 250px;
+    height: 276px;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transition-property: all;
+}
